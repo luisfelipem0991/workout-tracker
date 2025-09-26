@@ -1,13 +1,14 @@
-const express = require("express"); // Import express
-const app = express(); // Create an instance of express
-const port = 5050; // puerto de escucha
+const express = require("express");
+const { port } = require("./config/env"); // Importa el puerto desde env.js
 
-// Inicializacion del servidor y primera ruta
+const app = express(); // Inicialización de Express
+
+// Ruta principal
 app.get("/", (req, res) => {
   res.send("Hola mi server en Express");
 });
 
-// Inicio del servidor
+// Levantar el servidor
 app.listen(port, () => {
-  console.log(`Servidor corriendo en http://localhost:${port}`);
+  console.log(`🚀 Servidor corriendo en http://localhost:${port}`);
 });
