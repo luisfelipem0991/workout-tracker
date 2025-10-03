@@ -4,8 +4,8 @@
 let users = [
   {
     id: "b42f53fa-7b30-4b91-8d36-dc1c6ef27611",
-    name: "Ivan Florez",
-    email: "ivan@example.com",
+    name: "Luis",
+    email: "Luis@example.com",
     role: "user",
     createdAt: "2025-09-12T12:00:00Z"
   }
