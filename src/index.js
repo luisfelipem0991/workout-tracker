@@ -19,3 +19,4 @@ router.get('/', (req, res) => {
 });
  
 module.exports = router; // Export the router
+// get usuario http://localhost:8002/api/v1/users
