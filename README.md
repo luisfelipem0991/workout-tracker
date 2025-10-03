@@ -1,11 +1,11 @@
-# 🏋️ API de Entrenamiento - Documentación
+#  API de Entrenamiento - Documentación
 
 Esta API maneja usuarios, ejercicios y planes de entrenamiento con reportes, horarios y progresos.  
 Está construida con **Node.js + Express** y usa datos en memoria (simulación).  
 
 ---
 
-## 📌 Rutas Base
+##  Rutas Base
 
 ```
 /api/v1
@@ -13,7 +13,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-# 1️⃣ Users
+# 1️ Users
 
 ### Endpoints
 
@@ -49,7 +49,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-# 2️⃣ Exercises
+# 2️ Exercises
 
 ### Endpoints
 
@@ -74,7 +74,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-# 3️⃣ WorkoutPlans
+# 3️ WorkoutPlans
 
 ### Endpoints
 
@@ -99,7 +99,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-# 4️⃣ WorkoutExercises
+# 4️ WorkoutExercises
 
 ### Endpoints
 
@@ -125,7 +125,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-# 5️⃣ WorkoutSchedule
+# 5️ WorkoutSchedule
 
 ### Endpoints
 
@@ -150,7 +150,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-# 6️⃣ WorkoutReports
+# 6️WorkoutReports
 
 ### Endpoints
 
@@ -175,7 +175,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-## 📌 Códigos de Estado
+##  Códigos de Estado
 
 - `200 OK` → Operación exitosa  
 - `201 Created` → Recurso creado  
@@ -185,7 +185,7 @@ Está construida con **Node.js + Express** y usa datos en memoria (simulación).
 
 ---
 
-## 🚀 Ejecución
+##  Ejecución
 
 ```bash
 npm install
